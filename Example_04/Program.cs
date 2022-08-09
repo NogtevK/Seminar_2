@@ -9,12 +9,12 @@ int num1 = 1127;
 double a1 = num1 % 7;
 double a2 = num1 % 23;
 
-if (a1==a2)
+if (a1 == 0 & a2 == 0)
 {
     Console.WriteLine("Да");
 }
 else
-Console.WriteLine("Нет");
+    Console.WriteLine("Нет");
 
 
 
