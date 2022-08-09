@@ -6,15 +6,17 @@
 161 -> да
 */
 int num1 = 1127;
-double a1 = num1 % 7;
-double a2 = num1 % 23;
+/* int a1 = num1 % 7;
+int a2 = num1 % 23;
 
-if (a1 == 0 & a2 == 0)
+if (a1 == 0 & a2 == 0) */
+if (num1%161==0)
 {
     Console.WriteLine("Да");
 }
 else
+{
     Console.WriteLine("Нет");
-
+}
 
 
