@@ -6,8 +6,8 @@
 16, 4 -> кратно
 */
 
-int num1 = new Random().Next(50, 100);
-int num2 = new Random().Next(1, 50);
+int num1 = new Random().Next(50, 100);///использовал рандом числа, можно ввести в ручную числа.
+int num2 = new Random().Next(1, 50);// прога работает
 
 Console.WriteLine(num1);
 Console.WriteLine(num2);
@@ -19,4 +19,4 @@ if (num3>0)
 Console.WriteLine("не кратно, остаток "+num3);
 } 
 else
-Console.WriteLine("кратно");
+Console.WriteLine("кратно"+num3);
