@@ -6,7 +6,7 @@
 32679 -> 6 
 */
 
-int num1 = 125;
+/* int num1 = 125;
 int num2 = num1 % 10;
 
 while (num1 > 999)
@@ -20,4 +20,10 @@ if (num1 < 100)
 else
 {
     Console.WriteLine(num1 % 10);
-}
+} */
+
+/////////////second solution
+string str=Console.ReadLine();
+int num=int.Parse(str);
+
+Console.WriteLine(str[2]);
